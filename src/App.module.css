@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elements__container {
+    width: 1200px;
+}

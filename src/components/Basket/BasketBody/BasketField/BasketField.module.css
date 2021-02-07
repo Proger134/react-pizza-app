@@ -1,0 +1,74 @@
+.basket__field {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 15px 0px;
+   height: 90px;
+   width: 700px;
+   border-bottom: 1px solid lightgrey;
+}
+
+.basket__field__image {
+   height: 80px;
+}
+
+.basket__field__info {
+   margin-right: 100px;
+   width: 150px;
+}
+
+.basket__field__info__title {
+   font-size: 22px;
+   font-weight: bold;
+}
+
+.basket__field__info__description {
+   font-size: 18px;
+   color: grey;
+}
+
+.basket__field__counter {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+
+   background:rgb(187, 183, 183);
+   color: white;
+   width: 90px;
+   height: 30px;
+   border-radius: 20px;
+}
+
+.field__counter__icon {
+  color: white;
+  font-size: 15px;
+}
+
+.field__counter__icon:hover {
+   transition: 0.3s;
+   color: rgb(78, 78, 78);
+}
+
+.field__counter__text {
+   font-size: 17px;
+   font-weight: bold;
+}
+
+.field__price {
+   width: 110px;
+   box-sizing: border-box;
+   font-weight: bold;
+   font-size: 20px;
+   margin-left: 10px;
+}
+
+.basket__field__delete {
+   color: lightgrey;
+   font-size: 25px;
+   margin-right: 15px;
+}
+
+.basket__field__delete:hover {
+   color: rgb(77, 67, 67);
+   transition: 0.3s;
+}

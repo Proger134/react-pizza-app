@@ -1,0 +1,102 @@
+.basket__header {
+   width: 700px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 50px;
+   padding-bottom: 20px;
+   border-bottom: 1px solid lightgrey;
+}
+
+.header__title {
+   display: flex;
+}
+
+.header__title__icon {
+   height: 30px;
+   margin-right: 5px;
+}
+
+.header__title__text {
+   font-size: 27px;
+}
+
+.basket__clear {
+   display: flex;
+   color: grey;
+   cursor: pointer;
+}
+
+.basket__clear__icon {
+   margin-right: 5px;
+}
+
+.basket__info {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 700px;
+   margin-top: 30px;
+}
+
+.basket__info__count, .basket__info__price {
+   font-size: 18px;
+}
+
+.basket__info__count span {
+   font-weight: bold;
+}
+
+.basket__info__price span {
+   color: rgb(255, 115, 0);
+   font-weight: bold;
+}
+
+.basket__pay {
+   margin-top: 60px;
+   width: 700px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.come__back {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: lightgrey;
+   width: 200px;
+   border: 1px solid lightgrey;
+   padding: 8px 14px;
+   border-radius: 20px;
+}
+
+.come__back:hover {
+   border: 1px solid rgb(255, 115, 0);
+   color:rgb(255, 115, 0);
+   transition: 0.3s;
+}
+
+.come__back:hover .link {
+   transition: 0.3s;
+   color:rgb(255, 115, 0);
+}
+
+.come__back__icon {
+   margin-right: 10px;
+}
+
+.pay__button {
+   display: flex;
+   justify-content: center;
+   color: white;
+   background:rgb(255, 115, 0);
+   width: 200px;
+   padding: 8px 14px;
+   border-radius: 20px;
+}
+
+.link {
+   text-decoration: none;
+   color: lightgrey;
+}
+

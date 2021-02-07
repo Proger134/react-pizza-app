@@ -1,0 +1,107 @@
+.footer {
+   width: 100%;
+   height: 220px;
+   background: #000;
+   color: white;
+   margin-top: 80px;
+
+   display: flex;
+   justify-content: space-around;
+   padding-top: 60px;
+}
+
+.main__title, .contacts__title, .services__title {
+   color: white;
+   font-size: 19px;
+   margin-bottom: 15px;
+   cursor: default;
+}
+
+.main__item, .contacts__content__item, .services__content__text {
+   width: 250px;
+   color: grey;
+   margin-bottom: 8px;
+   font-size: 15px;
+}
+
+.main__item:hover,
+.contacts__content__item:hover,
+.services__content__text:hover {
+   transition: 0.5s;
+   color: white;
+}
+
+.services__content {
+   display: flex;
+   width: 120px;
+}
+
+.services__content__icon {
+   color: red;
+   font-size: 20px;
+   margin-right: 5px;
+}
+
+.site__image {
+   height: 32px;
+   margin-right: 3px;
+}
+
+.info__site {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 60px;
+}
+
+.info__site__logo {
+   display: flex;
+   align-items: center;
+   margin-bottom: 8px;
+}
+
+.site__title {
+   font-size: 28px;
+   font-weight: bold;
+}
+
+.site__address {
+   color: grey;
+   font-size: 15px;
+}
+
+.social__networks__title {
+   color: grey;
+   font-size: 13px;
+   letter-spacing: 0.1rem;
+}
+
+.social__networks__content {
+   margin-top: 10px;
+   display: flex;
+   align-items: center;
+}
+
+.social__networks__content__item {
+   color: grey;
+   font-size: 25px;
+   margin-right: 15px;
+}
+
+.social__networks__content__item:hover {
+   transition: 0.5s;
+   color: white;
+}
+
+.main__item,
+.services__content,
+.contacts__content__item,
+.info__site__logo,
+.site__address,
+.social__networks__content__item {
+   cursor: pointer;
+}
+
+.link {
+   text-decoration: none;
+   color: white;
+}

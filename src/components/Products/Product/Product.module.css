@@ -1,0 +1,127 @@
+.products__item {
+   width: 270px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0px 15px;
+   margin-bottom: 40px;
+}
+
+.item__image {
+   cursor: pointer;
+   height: 265px;
+   margin-bottom: 2px;
+   box-sizing: border-box;
+}
+
+.item__image:hover {
+   transition: 0.3s;
+   padding-bottom: 2px;
+}
+
+.item__title {
+   font-size: 27px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.item__description {
+   height: 40px;
+   text-align: center;
+   margin-top: 7px;
+   color: grey;
+   font-size: 15px;
+}
+
+.item__configurator {
+   width: 95%;
+   background-color: rgb(231, 229, 229);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   border-radius: 15px;
+   margin-top: 5px;
+   height: 75px;
+}
+
+.item__configurator__row {
+   display: flex;
+   justify-content: space-around;
+}
+
+.configurator__first__row__item {
+   background: rgb(231, 229, 229);
+   font-size: 18px;
+   width: 120px;
+   height: 30px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+.configurator__first__row__item__selected {
+   background: white;
+}
+
+.configurator__second__row__item__selected {
+   font-size: 18px;
+   background: white;
+   border-radius: 10px;
+   width: 80px;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+.configurator__second__row__item {
+   font-size: 18px;
+   background: rgb(231, 229, 229);
+   border-radius: 10px;
+   width: 80px;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+.item__add {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 98%;
+   margin-top: 15px;
+}
+
+.item__add__price {
+   font-size: 22px;
+   font-weight: bold;
+}
+
+.item__add__button {
+   display: flex;
+   align-items: center;
+   background:  rgb(255, 115, 0);
+   color: #fff;
+   padding: 5px 10px;
+   width: 110px;
+   height: 24px;
+   border-radius: 20px;
+   justify-content: center;
+   cursor: pointer;
+   border: 1px solid rgb(255, 115, 0);
+}
+
+.item__add__button:hover {
+   transition: 0.5s;
+   color:rgb(255, 115, 0);
+   background: white;
+}
+
+.button__item {
+   margin: 0px 6px
+}
