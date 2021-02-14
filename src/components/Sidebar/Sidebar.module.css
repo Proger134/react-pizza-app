@@ -27,6 +27,11 @@
       width: 7000%;
    }
 }
+@media (max-width: 400px) {
+   .sidebar__navigator {
+     display: none;
+   }
+}
 
 .sidebar__navigator__item {
    display: flex;
