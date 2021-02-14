@@ -12,7 +12,7 @@ const EmptyBasketBody = () => {
             Скоріш за все, ви не замовляли ще піцу.
             Для того, щоб замовити піцу, перейди на головну сторінку.
          </div>
-         <img src={emptyBasketImage} alt="" />
+         <img className={s.empty__basket__image} src={emptyBasketImage} alt="" />
          <NavLink className={s.empty__basket__button} to="/">Вернутися назад</NavLink>
       </div>
    )

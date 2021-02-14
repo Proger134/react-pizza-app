@@ -20,14 +20,14 @@ let initialState = {
          { id: 5, title: 'Сирна', description: 'Збільшена порція моцарели, сири чеддер і пармезан, соус Альфредо', price: 120, image: cheesImage, popularity: 8 },
          { id: 6, title: 'Піца періг', description: 'Ананаси, брусниця, згущене молоко', price: 110, image: pieImage, popularity: 7 },
          { id: 7, title: 'Запечене яблуко', description: 'Яблука, чорна смородина, соус пломбір, пелюстки мигдалю, кориця', price: 110, image: backedAppleImage, popularity: 7 },
-         { id: 8, title: 'Мексиканська', description: 'Гострий курча, гострий перець халапеньо,', price: 110, image: mexicaImage, popularity: 7 },
+         { id: 8, title: 'Мексика', description: 'Гострий курча, гострий перець халапеньо,', price: 110, image: mexicaImage, popularity: 7 },
          { id: 9, title: 'Арріва', description: 'Курча, гостра чоризо, соус бургер, солодкий перець', price: 110, image: arriveImage, popularity: 7 }
       ],
       meat: [
          { id: 1, title: 'Папероні', description: 'Папероні, моцарелла, томатний соус', price: 115, image: paperoniImage, popularity: 10 },
          { id: 2, title: 'Гавайська', description: 'Курятина, ананаси, моцарелла, томатний соус', price: 105, image: hawaianImage, popularity: 8 },
          { id: 3, title: 'Кисла курка', description: 'Курча, кисло-солодкий соус, моцарела, томатний соус', price: 136, image: sourSweetChikenImage, popularity: 5 },
-         { id: 4, title: 'Мексиканська', description: 'Гострий курча, гострий перець халапеньо', price: 110, image: mexicaImage, popularity: 7 },
+         { id: 4, title: 'Мексика', description: 'Гострий курча, гострий перець халапеньо', price: 110, image: mexicaImage, popularity: 7 },
          { id: 5, title: 'Арріва', description: 'Курча, гостра чоризо, соус бургер, солодкий перець,', price: 110, image: arriveImage, popularity: 7 }
       ],
       vegetarian: [
@@ -35,7 +35,7 @@ let initialState = {
          { id: 2, title: 'Сирна', description: 'Збільшена порція моцарели, сири чеддер і пармезан, соус Альфредо', price: 120, image: cheesImage, popularity: 8 }
       ],
       spicy: [
-         { id: 1, title: 'Мексиканська', description: 'Гострий курча, гострий перець халапеньо', price: 110, image: mexicaImage, popularity: 7 },
+         { id: 1, title: 'Мексика', description: 'Гострий курча, гострий перець халапеньо', price: 110, image: mexicaImage, popularity: 7 },
          { id: 2, title: 'Арріва', description: 'Курча, гостра чоризо, соус бургер, солодкий перець,', price: 110, image: arriveImage, popularity: 7 }
       ],
       sweet: [

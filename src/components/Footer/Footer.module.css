@@ -10,6 +10,22 @@
    padding-top: 60px;
 }
 
+@media (max-width: 950px) {
+   .footer__services {
+      display: none;
+   }
+}
+@media (max-width: 740px) {
+   .footer__main {
+      display: none;
+   }
+}
+@media (max-width: 490px) {
+   .footer__contacts {
+      display: none;
+   }
+}
+
 .main__title, .contacts__title, .services__title {
    color: white;
    font-size: 19px;

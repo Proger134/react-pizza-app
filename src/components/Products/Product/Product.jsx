@@ -54,10 +54,10 @@ const Product = ({ image, title, description, productPrice, count = 0, addPizza 
          <div className={s.item__add}>
 
             {getProductPrice(productPrice) === productPrice &&
-               <div className={s.item__add__price}>від {getProductPrice(productPrice)}  ₴</div>
+               <div className={s.item__add__price}> <span>від</span> {getProductPrice(productPrice)}  ₴</div>
             }
             {getProductPrice(productPrice) !== productPrice &&
-               <div className={s.item__add__price}>ціна {getProductPrice(productPrice)}  ₴</div>
+               <div className={s.item__add__price}><span>ціна</span> {getProductPrice(productPrice)}  ₴</div>
             }
 
             <div className={s.item__add__button} onClick={onClickAddToBasket}>

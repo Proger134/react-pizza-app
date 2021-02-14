@@ -1,5 +1,28 @@
-.basket__header {
+.basket__container {
    width: 700px;
+}
+@media (max-width: 780px) {
+   .basket__container {
+      width: 550px;
+   }
+}
+@media (max-width: 600px) {
+   .basket__container {
+      width: 450px;
+   }
+}
+@media (max-width: 500px) {
+   .basket__container {
+      width: 350px;
+   }
+}
+@media (max-width: 460px) {
+   .basket__container {
+      width: 300px;
+   }
+}
+
+.basket__header {
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -10,6 +33,11 @@
 
 .header__title {
    display: flex;
+}
+@media (max-width: 460px) {
+   .header__title__icon {
+      display: none;
+   }
 }
 
 .header__title__icon {
@@ -35,8 +63,18 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   width: 700px;
    margin-top: 30px;
+}
+@media (max-width: 460px) {
+   .basket__info {
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+   }
+   .basket__info__count, .basket__info__price {
+      margin-bottom: 4px;
+      font-size: 20px;
+   }
 }
 
 .basket__info__count, .basket__info__price {
@@ -54,7 +92,6 @@
 
 .basket__pay {
    margin-top: 60px;
-   width: 700px;
    display: flex;
    justify-content: space-between;
 }
@@ -88,11 +125,32 @@
 .pay__button {
    display: flex;
    justify-content: center;
+   align-items: center;
    color: white;
    background:rgb(255, 115, 0);
    width: 200px;
    padding: 8px 14px;
    border-radius: 20px;
+}
+@media (max-width: 600px) {
+   .pay__button, .come__back {
+      width: 150px;
+   }
+}
+@media (max-width: 500px) {
+   .pay__button, .come__back {
+      width: 100px;
+   }
+}
+@media (max-width: 460px) {
+   .pay__button, .come__back {
+      width: 80px;
+      text-align: center;
+   }
+   .come__back__icon {
+      display: none;
+   }
+  
 }
 
 .link {

@@ -5,5 +5,21 @@
 }
 
 .elements__container {
-    width: 1200px;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+@media (max-width: 1200px) {
+  .elements__container {
+    max-width: 1024px;
+  }
+}
+@media (max-width: 1024px) {
+  .elements__container {
+    max-width: 992px;
+  }
+}
+@media (max-width: 992px) {
+  .elements__container {
+    max-width: 768px;
+  }
 }

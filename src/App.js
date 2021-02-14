@@ -15,12 +15,12 @@ const App = () => {
       <HeaderContainer />
       <div className={s.elements__container}>
 
-        <Route exact path="/" render={() => <SidebarContainer />} />
+        <Route className={s.sidebar} exact path="/" render={() => <SidebarContainer />} />
         <Route exact path="/" render={() => <ProductsContainer />} />
-        <Route path="basket/" render={() => <BasketContainer />} />
+        <Route path="/basket" render={() => <BasketContainer />} />
       </div>
 
-      <Route exact path="react-pizza-app/" render={() => <Footer />} />
+      <Route exact path="/" render={() => <Footer />} />
     </div>
   )
 }

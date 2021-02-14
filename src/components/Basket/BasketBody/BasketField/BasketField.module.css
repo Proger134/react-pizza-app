@@ -4,17 +4,29 @@
    justify-content: space-between;
    padding: 15px 0px;
    height: 90px;
-   width: 700px;
+   width: 100%;
    border-bottom: 1px solid lightgrey;
 }
 
 .basket__field__image {
    height: 80px;
+   margin-right: 2%;
+}
+@media (max-width: 600px) {
+   .basket__field__image {
+     display: none;
+   }
 }
 
 .basket__field__info {
-   margin-right: 100px;
-   width: 150px;
+   margin-right: 6%;
+   width: 200px;
+}
+@media (max-width: 460px) {
+   .basket__field__info {
+     width: 150px;
+   }
+   
 }
 
 .basket__field__info__title {
@@ -37,6 +49,15 @@
    width: 90px;
    height: 30px;
    border-radius: 20px;
+   margin-right: 4%;
+}
+@media (max-width: 500px) {
+   .basket__field__counter {
+      flex-direction: column;
+      width: 40px;
+      height: 55px;
+      padding: 3px 0px;
+   }
 }
 
 .field__counter__icon {
@@ -59,13 +80,18 @@
    box-sizing: border-box;
    font-weight: bold;
    font-size: 20px;
-   margin-left: 10px;
+   margin-right: 1%;
+}
+@media (max-width: 460px) {
+   .field__price {
+      margin-left: 2%;
+   }
 }
 
 .basket__field__delete {
    color: lightgrey;
    font-size: 25px;
-   margin-right: 15px;
+   margin-right: 2%;
 }
 
 .basket__field__delete:hover {

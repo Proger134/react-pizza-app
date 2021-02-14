@@ -3,10 +3,29 @@
    display: flex;
    justify-content: space-between;
    align-items: flex-end;
+   width: 100%;
 }
+@media (max-width: 1020px) {
+   .sidebar__sort, .sidebar__sort__item {
+      display: none;
+   }
+}
+
+
 
 .sidebar__navigator {
    display: flex;
+}
+@media (max-width: 850px) {
+   .sidebar__navigator {
+      flex-wrap: wrap;
+   }
+}
+@media (max-width: 600px) {
+   .sidebar__navigator {
+      flex-direction: column;
+      width: 10000%;
+   }
 }
 
 .sidebar__navigator__item {
