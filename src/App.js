@@ -8,7 +8,7 @@ import ProductsContainer from './components/Products/Products';
 import BasketContainer from './components/Basket/Basket';
 import Footer from './components/Footer/Footer';
 
-
+// Main App
 const App = () => {
   return (
     <div className={s.container}>
