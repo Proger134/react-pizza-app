@@ -24,7 +24,7 @@
 @media (max-width: 600px) {
    .sidebar__navigator {
       flex-direction: column;
-      width: 10000%;
+      width: 7000%;
    }
 }
 
