@@ -1,9 +1,9 @@
 .products__item {
-   width: 22%;
+   width: 240px;
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin: 0px 15px;
+   margin: 0 25px;
    margin-bottom: 40px;
 }
 @media (max-width: 1200px) {
@@ -132,11 +132,11 @@
    font-size: 22px;
    font-weight: bold;
 }
-@media (max-width: 400px) {
-   .item__add__price span {
-      display: none;
-   }
-}
+/*@media (max-width: 400px) {*/
+/*   .item__add__price span {*/
+/*      display: none;*/
+/*   }*/
+/*}*/
 
 .item__add__button {
    display: flex;
@@ -159,5 +159,5 @@
 }
 
 .button__item {
-   margin: 0px 6px
+   margin: 0 6px
 }

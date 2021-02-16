@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import s from './Sidebar.module.css';
 import classNames from 'classnames';
 
-import { setPizzaType } from './../../redux/products-reducer';
+import { setPizzaType } from '../../redux/products-reducer';
 
 import { faCaretDown, faCaretUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
