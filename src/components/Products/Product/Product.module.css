@@ -1,12 +1,10 @@
 .products__item {
-   width: 240px;
+   width: 100%;
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin: 0 25px;
-   margin-bottom: 40px;
 }
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
    .products__item {
       width: 30%;
    }
@@ -25,7 +23,7 @@
    .products__item {
       width: 60%;
    }
-}
+} */
 
 .item__image {
    cursor: pointer;
@@ -60,7 +58,7 @@
 }
 
 .item__configurator {
-   width: 95%;
+   width: 80%;
    background-color: rgb(231, 229, 229);
    display: flex;
    flex-direction: column;
@@ -71,7 +69,7 @@
 }
 @media (max-width: 370px) {
    .item__configurator {
-      width: 120%;
+      width: 96%;
    }
 }
 
@@ -124,7 +122,7 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   width: 98%;
+   width: 80%;
    margin-top: 15px;
 }
 
@@ -141,21 +139,53 @@
 .item__add__button {
    display: flex;
    align-items: center;
-   background:  rgb(255, 115, 0);
-   color: #fff;
+   color: rgb(255, 115, 0);
    padding: 5px 10px;
    width: 40%;
    height: 24px;
    border-radius: 20px;
    justify-content: center;
    cursor: pointer;
+   transition: 0.9s;
    border: 1px solid rgb(255, 115, 0);
+   position: relative;
+   overflow: hidden;
 }
 
 .item__add__button:hover {
-   transition: 0.5s;
-   color:rgb(255, 115, 0);
-   background: white;
+   color:white;
+   transition: 0.3s;
+}
+
+.item__add__button::before,
+.item__add__button::after {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background: rgb(255, 115, 0);
+      border-radius: 20px;
+      top: 0;
+      left: -100%;
+      opacity: 0.5;
+
+      transition: 0.3s;
+      z-index: -1;
+}
+
+.item__add__button:hover::before,
+.item__add__button:hover::after {
+   left: 0
+}
+
+.item__add__button::after {
+   opacity: 1;
+   transition-delay: 0.2s;
+}
+
+.item__add__button:hover {
+   transition: 0.9s;
+   border: 1px solid white;
 }
 
 .button__item {

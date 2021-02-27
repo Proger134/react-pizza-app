@@ -16,15 +16,6 @@ const basketReducer = (state = initialState, action) => {
          return { ...state, pizza: state.pizza.filter(o => o.id !== action.id) }
       }
       case ADD_PIZZA_ITEM_TO_BASKET: {
-         const getNewPizzaId = (state) => {
-            let id;
-            if (state.length === 0) {
-               id = 1;
-            } else {
-               id = state[state.length - 1].id + 1;
-            }
-            return id;
-         }
          const checkIsUsed = (state) => {
             let isUsed = false;
             for (let i in state) {
@@ -35,7 +26,7 @@ const basketReducer = (state = initialState, action) => {
             return isUsed;
          }
          let newPizza = {
-            id: getNewPizzaId(state.pizza),
+            id: Date.now(),
             isUsed: checkIsUsed(state.pizza),
             image: action.pizzaImage,
             name: action.name,

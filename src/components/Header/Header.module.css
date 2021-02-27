@@ -7,6 +7,7 @@
    justify-content: center;
    border-bottom: 1px solid lightgrey;
    background: white;
+   z-index: 5;
 }
 
 .header__content__container {
@@ -74,6 +75,8 @@
    padding: 12px 20px;
    border-radius: 20px;
    cursor: pointer;
+   transition: 0.3s;
+   transition-timing-function: linear;
 }
 @media (max-width: 410px) {
    .basket {

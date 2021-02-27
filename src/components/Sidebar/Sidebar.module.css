@@ -22,12 +22,7 @@
 }
 @media (max-width: 600px) {
    .sidebar {
-      width: 400px;
-   }
-}
-@media (max-width: 400px) {
-   .sidebar {
-      width: 200px;
+      display: none;
    }
 }
 @media (max-width: 1020px) {
